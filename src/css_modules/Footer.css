@@ -1,0 +1,31 @@
+.footer {
+    text-align: center;
+    margin-top: 35px;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social-footer {
+    width: 90%;
+}
+
+.social-list-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+hr {
+    color: #fbfafa;
+}
+
+.social-list-footer li a {
+    font-size: 12px;
+}
+
+.social-list-footer li {
+    display: flex;
+    gap: 5px;
+}
+

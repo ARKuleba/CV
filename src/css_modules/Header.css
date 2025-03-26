@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@300&display=swap');
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3%;
+}
+
+.name-block {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.intro {
+    width: 70%;
+    line-height: 0.5;
+}
+
+.social {
+    width: 30%;
+}
+
+.name {
+    font-family: 'Archivo Black', sans-serif;
+    color: #54b689;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 1%;
+}
+
+.special {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+hr {
+    margin: 0;
+    border-right: 0px solid #cccccc;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    height: 34px
+}
+
+a, p {
+    text-decoration: none;
+    color: rgb(57, 56, 56);
+    font-size: 14px;
+}
+
+a:hover {
+    color: #54b689;
+    text-decoration: underline;
+}
+
+.horizontal {
+    margin-top: 2%;
+    width: 90%;
+    height: 1px;
+    background-color: #cccccc; 
+    border: none; 
+}
+
+.photo-cv {
+    border-radius: 50%; 
+    width: 200px; 
+    height: 180px; 
+    object-fit: cover;
+}
+
+.photo-block {
+    width: 90%;
+    margin-top: 2%;
+    display: flex;
+    gap: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
